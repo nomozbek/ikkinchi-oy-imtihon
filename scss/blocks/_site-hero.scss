@@ -91,5 +91,33 @@
 }
 
 
+@media only screen and (max-width:768px) {
+  .site-hero{
+    flex-direction: column-reverse;
+  }
 
+  .site-hero__image-img{
+    width:inherit;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  .site-hero__discription{
+    text-align: center;
+    margin-top: 10px;
 
+  }
+
+  .site-hero__heading{
+    width: 573px;
+    font-size:40px;
+  }
+
+  .site-hero__form{
+    padding-top: 50px;
+  }
+}
+
+  

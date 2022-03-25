@@ -1,6 +1,6 @@
-.navbar__list {
-  @include flex(center,none);
-  margin-right: 600px;
+.navbar__list{
+  @include flex(center,space-between);
+  margin-right: 200px;
 }
 
 .navbar__item ~ .navbar__item {
@@ -22,3 +22,74 @@
 }
 
 // RESPONSIVE PART
+
+
+@media only screen and (max-width:1220px) {
+ .navbar__list {
+   margin-right: 500px;
+
+}
+}
+@media only screen and (max-width:1100px) {
+  .navbar__list {
+    margin-right: 400px;
+ 
+ }
+ }
+
+ @media only screen and (max-width:1000px) {
+  .navbar__list {
+    margin-right: 300px;
+ 
+ }
+ }
+
+ @media only screen and (max-width:900px) {
+  .navbar__list {
+    margin-right: 200px;
+ 
+ }
+ }
+
+ @media only screen and (max-width:778px) {
+  .navbar__list {
+    margin-right: 100px;
+ 
+ }
+ }
+
+ @media only screen and (max-width:680px) {
+  .navbar__list {
+    margin-right: 50px;
+ 
+ }
+ }
+
+
+ @media only screen and (max-width:630px) {
+  .navbar__list {
+    margin-right: 0px;
+ 
+ }
+ }
+
+ @media only screen and (max-width:580px) {
+  .navbar__list {
+    margin-right: -50px;
+ 
+ }
+ }
+
+@media only screen and (max-width:375px) {
+  .navbar__list{
+    display: none;
+  }
+  
+}
+
+@media only screen and (max-width:375px) {
+  .header__wrapper-hamburger-btn {
+    display: inline-block;
+ 
+ }
+ }

@@ -29,5 +29,19 @@
 
 // RESPONSIVE PART OF HEADER
 
+// @media only screen and (max-width:1220px) {
+//   .header__wrapper-button{
+//     margin-right: 550px;
+//   }
+  
+// }
 
+@media only screen and (max-width:375px) {
+  .header__wrapper-button{
+  
+      display: none;
+
+}
+  
+}
 
