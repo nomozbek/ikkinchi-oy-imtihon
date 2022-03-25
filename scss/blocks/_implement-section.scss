@@ -1,0 +1,28 @@
+.implement-section__wrapper {
+  @include flex(center,space-evenly);
+  margin-top: 100px;
+}
+
+.implement-section_img {
+  width: 560px;
+  height: 400px;
+}
+
+.implement-section__description-heading {
+  font-family: 'DM Serif Display';
+  font-size: 40px;
+  color: #36536B;
+  font-weight: 400;
+  padding-top: 50px;
+
+}
+
+.implement-section__description-text {
+  width: 400px;
+  height: 164px;
+  font-family: 'Public Sans';
+  font-size: 15px;
+  line-height: 25px;
+  color: #6C8294;
+
+}

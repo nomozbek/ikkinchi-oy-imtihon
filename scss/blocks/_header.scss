@@ -1,0 +1,80 @@
+.header__wrapper { 
+  @include flex(center,space-between);
+  margin-top: 56px;
+}
+
+.header__wrapper-button {
+  @include button(15px 25px,#BA4270,24px,#FBFCFE);
+  border: none;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.115385px;
+}
+
+.header__wrapper-button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+.header__wrapper-hamburger-btn{
+  display: none;
+  background-color: transparent;
+  border: none;
+}
+
+// RESPONSIVE PART OF HEADER
+
+@media only screen  and (max-width:1220px){
+  .header__wrapper-button{
+    margin-right: 100px;
+  
+  }
+}
+
+@media only screen  and (max-width:860px){
+  .header__wrapper-button{
+    margin-right: 100px;
+  
+  }
+}
+
+@media only screen  and (max-width:670px){
+  .header__wrapper-button{
+    margin-right: auto;
+  
+  }
+}
+@media only screen  and (max-width:600px){
+  .header__wrapper-button{
+    margin-right: auto;
+  
+  }
+}
+
+@media only screen  and (max-width:400px){
+  .header__wrapper-button{
+    margin-right: auto;
+  
+  }
+}
+
+@media only screen  and (max-width:375px){
+  .header__wrapper-button{
+    display: none;
+  
+  }
+}
+
+
+@media only screen  and (max-width:375px){
+  .header__wrapper-hamburger-btn{
+    display: inline-block;
+  
+  }
+}
+

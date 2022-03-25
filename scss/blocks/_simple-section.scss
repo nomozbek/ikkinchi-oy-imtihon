@@ -1,0 +1,35 @@
+.simple-section {
+  background-image: url("/img/site-hero-back-img.png");
+  background-repeat: no-repeat;
+  background-size: 811px 800px;
+  background-position: calc(50% - -720px)7px;
+  padding-bottom: 90px;
+  padding-top: 100px;
+}
+
+.simple-section__wrapper {
+  @include flex(center,space-evenly);
+}
+
+.simple-section__wrapper-heading {
+  font-family: 'DM Serif Display';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  color: #36536B;
+}
+
+.simple-section__wrapper-text {
+  width: 445px;
+  height: 56px;
+  font-family: 'Public Sans';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #6C8294;
+}
+
+.simple-section__wrapper-image {
+  @include flex(center,space-evenly);
+}
+

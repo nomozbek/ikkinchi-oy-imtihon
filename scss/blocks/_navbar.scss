@@ -1,0 +1,80 @@
+.navbar__list {
+  @include flex(center,none);
+  margin-right: 600px;
+}
+
+.navbar__item ~ .navbar__item {
+  margin-left: 40px;
+}
+
+.navbar__link{
+  font-family: 'Public Sans';
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #36536B;
+  opacity: 0.7;
+}
+
+.navbar__link:hover {
+  opacity: 1;
+  transition: all 1s ease #000000;
+}
+
+// RESPONSIVE PART
+@media only screen and (max-width:1220px) {
+  .navbar__list{
+    margin-right: 200px;
+  }
+  
+  
+}
+
+@media only screen and (max-width:768px) {
+  .navbar__list{
+    margin-right: 50px;
+  }
+  
+  
+}
+
+@media only screen and (max-width:600px) {
+  .navbar__list{
+    margin-right:30px;
+  }
+  
+  
+}
+
+@media only screen and (max-width:400px) {
+  .navbar__list{
+    margin-right:30px;
+  }
+  
+  
+}
+
+
+@media only screen and (max-width:320px) {
+  .navbar__list{
+    display: none;
+  }
+  
+  
+}
+
+
+@media only screen and (max-width:680px){
+  .navbar__item ~ .navbar__item{
+    margin-left: 20px;
+ 
+}
+  
+}
+
+
+@media only screen and (max-width:375px){
+  .navbar__list{
+    display: none;
+  }
+}

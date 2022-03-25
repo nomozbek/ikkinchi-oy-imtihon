@@ -1,0 +1,10 @@
+.logo__image{
+  width: 135px;
+  height: 38px;
+  display: block;
+  transition: 1s;
+}
+
+.logo__image:hover {
+  transform: scale(1.2);
+}

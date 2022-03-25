@@ -1,0 +1,53 @@
+.jobs-list-section__list {
+  @include flex(center, space-evenly);
+  margin-top: 150px;
+}
+
+.jobs-list-section__item {
+  position: relative;
+  width: 350px;
+}
+
+.jobs-list-section__item:nth-child(1)::before {
+  position: absolute;
+  top: -115px;
+  left: 125px;
+  display: block;
+  content: url("/img/personal-image.svg");
+}
+
+.jobs-list-section__item:nth-child(2)::before {
+  position: absolute;
+  top: -115px;
+  left: 125px;
+  display: block;
+  content: url("/img/banking-image.svg");
+}
+
+.jobs-list-section__item:nth-child(3)::before {
+  position: absolute;
+  top: -115px;
+  left: 125px;
+  display: block;
+  content: url("/img/consumer-image.svg");
+}
+
+.jobs-list-section__item-heading {
+  font-family: 'Public Sans';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #36536B;
+  text-align: center;
+}
+
+.jobs-list-section__item-text {
+  font-family: 'Public Sans';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #6C8294;
+
+
+}
