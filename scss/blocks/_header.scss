@@ -29,52 +29,5 @@
 
 // RESPONSIVE PART OF HEADER
 
-@media only screen  and (max-width:1220px){
-  .header__wrapper-button{
-    margin-right: 100px;
-  
-  }
-}
 
-@media only screen  and (max-width:860px){
-  .header__wrapper-button{
-    margin-right: 100px;
-  
-  }
-}
-
-@media only screen  and (max-width:670px){
-  .header__wrapper-button{
-    margin-right: auto;
-  
-  }
-}
-@media only screen  and (max-width:600px){
-  .header__wrapper-button{
-    margin-right: auto;
-  
-  }
-}
-
-@media only screen  and (max-width:400px){
-  .header__wrapper-button{
-    margin-right: auto;
-  
-  }
-}
-
-@media only screen  and (max-width:375px){
-  .header__wrapper-button{
-    display: none;
-  
-  }
-}
-
-
-@media only screen  and (max-width:375px){
-  .header__wrapper-hamburger-btn{
-    display: inline-block;
-  
-  }
-}
 
